@@ -79,27 +79,26 @@ alert(" wish you have a good day " + name);
     }
     
         
+    var favFood =['mansaf', 'burger', 'kabseh', 'mskhan'];
+    var myFav = prompt('what\'s my favorite food');
     
-    var birthMon = prompt('what\'s my birth month? (from 1 to 12) you have seven atempt');
-    birthMon = Number(birthMon);
-    for ( var i = 0 ; i < 6; i++){
-        if (birthMon === 11){
+    for ( var f = 0 ; f < 6 ; f++){
+        if (myFav === favFood[0] || myFav ===favFood[1] || myFav === favFood[2]|| myFav === favFood[3]){
             alert ('Wow you guess it');
             score++;
             break;
-        } else if (birthMon === 10 || birthMon === 12){
-            alert( 'wrong! try again! you are close.');
-        } else if ( birthMon > 12 || birthMon < 10){
-            alert( 'wrong! try again! you are far.');
-        }  
-    var birthMon = prompt('what\'s my fav number? (from 1 to 10) you have four atempt');
-    birthMon = Number(birthMon);
-
-    if (i === 5){
+        }else {
+            alert( 'wrong! try again');
+        } 
+         prompt('what\'s my favorite food');
+        if (f === 5){
         alert('sorry! your attempts finished');
         break;
-    }
-    }
+        }
+        }
+      
+    
+        
     alert(score +' out of 7');
 
 
