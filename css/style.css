@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(175, 124, 160) ;
+    background-color:rgb(175, 199, 161) ;
 }
 h1{
     text-align: center;
@@ -21,4 +21,52 @@ p{
     font-size: 25px;
     font-family: Arial;
 
+}
+
+
+div p{
+    padding: 10px;
+    border: 3px solid rgb(16, 44, 20);
+    margin: 50px ;
+    background-color: rgb(69, 136, 116);
+    line-height: 25px;
+    font-size: 25px;
+    font-family: Arial;
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+ }
+
+ img{
+     display: inline-block;
+     height: 300px;
+     width: 400px;
+     
+ }
+
+ .by-side{
+     display: inline-block;
+ }
+
+ ol{
+
+    border: 5px solid powderblue;
+    padding: 56px;
+    margin: 30px;
+    list-style: disc;
+    font-size: 20px;
+    background-color: rgb(69, 136, 116);
+    height: 230px;
+    width: 260px;
+    display: inline-block;
+}
+
+
+ul{
+    
+    width: 140px;
+    border: 5px solid mediumpurple;
+    list-style: none;
+    margin: 44px;
+    padding: 23px;
 }
